@@ -41,121 +41,132 @@
 						"mappings": [
 							{
 								"source": {
-									"type": "String",
-									"ordinal": 1
+									"name": "Id",
+									"type": "Int32",
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Columnundefined",
+									"name": "Id",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
+									"name": "Correlationid",
 									"type": "String",
-									"ordinal": 2
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Columnundefined",
+									"name": "Correlationid",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
+									"name": "Operationname",
 									"type": "String",
-									"ordinal": 3
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Columnundefined",
+									"name": "Operationname",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
+									"name": "Status",
 									"type": "String",
-									"ordinal": 4
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Columnundefined",
+									"name": "Status",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
+									"name": "Eventcategory",
 									"type": "String",
-									"ordinal": 5
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Columnundefined",
+									"name": "Eventcategory",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
+									"name": "Level",
 									"type": "String",
-									"ordinal": 6
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Columnundefined",
+									"name": "Level",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"type": "String",
-									"ordinal": 7
+									"name": "Time",
+									"type": "DateTime",
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Columnundefined",
+									"name": "Time",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
+									"name": "Subscription",
 									"type": "String",
-									"ordinal": 8
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Columnundefined",
+									"name": "Subscription",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
+									"name": "Eventinitiatedby",
 									"type": "String",
-									"ordinal": 9
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Columnundefined",
+									"name": "Eventinitiatedby",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
+									"name": "Resourcetype",
 									"type": "String",
-									"ordinal": 10
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Columnundefined",
+									"name": "Resourcetype",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
+									"name": "Resourcegroup",
 									"type": "String",
-									"ordinal": 11
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Columnundefined",
+									"name": "Resourcegroup",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
