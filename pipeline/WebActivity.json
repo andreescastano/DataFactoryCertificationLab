@@ -29,18 +29,6 @@
 						"productId": 1,
 						"quantity": 1
 					},
-					"linkedServices": [
-						{
-							"referenceName": "AzureDataLakeStorage1",
-							"type": "LinkedServiceReference"
-						}
-					],
-					"datasets": [
-						{
-							"referenceName": "testFileJson",
-							"type": "DatasetReference"
-						}
-					],
 					"authentication": {
 						"type": "ClientCertificate",
 						"pfx": {
