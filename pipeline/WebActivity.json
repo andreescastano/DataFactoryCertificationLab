@@ -23,7 +23,7 @@
 					"headers": {
 						"Content-Type": "application/json"
 					},
-					"body": "\"myMessage\": \"Sample\",\n        \"datasets\": [{\n            \"name\": \"MyDataset1\",\n            }]",
+					"body": "{\n\"myMessage\": \"Sample\",\n        \"datasets\": [{\n            \"name\": \"MyDataset1\",\n            }]\n}",
 					"linkedServices": [
 						{
 							"referenceName": "AzureDataLakeStorage1",
