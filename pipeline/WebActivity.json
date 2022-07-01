@@ -23,6 +23,19 @@
 					"headers": {
 						"Content-Type": "application/json"
 					},
+					"body": "sdgfdfgdfg",
+					"linkedServices": [
+						{
+							"referenceName": "AzureDataLakeStorage1",
+							"type": "LinkedServiceReference"
+						}
+					],
+					"datasets": [
+						{
+							"referenceName": "testFileJson",
+							"type": "DatasetReference"
+						}
+					],
 					"authentication": {
 						"type": "ClientCertificate",
 						"pfx": {
