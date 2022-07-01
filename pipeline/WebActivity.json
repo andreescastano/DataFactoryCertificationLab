@@ -23,7 +23,19 @@
 					"headers": {
 						"Content-Type": "application/json"
 					},
-					"body": "{\n\"myMessage\": \"Sample\",\n        \"datasets\": [{\n            \"name\": \"MyDataset1\",\n            }]\n}",
+					"body": {
+						"id": "961",
+						"description": "MONOTRIB+IB BA>30000M                        ",
+						"ivaCondition": {
+							"id": "7",
+							"description": "R. MONOTRIBUTO "
+						},
+						"iibbCondition": {
+							"id": "8",
+							"description": "Bs.As. +3000000"
+						},
+						"taxesApply": []
+					},
 					"linkedServices": [
 						{
 							"referenceName": "AzureDataLakeStorage1",
