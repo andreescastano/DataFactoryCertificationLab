@@ -1,0 +1,19 @@
+{
+	"name": "testFileJson",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "impProfileClient_toBus.json",
+				"fileSystem": "data"
+			}
+		},
+		"schema": {}
+	}
+}
