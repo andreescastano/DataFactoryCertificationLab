@@ -27,7 +27,7 @@
 					},
 					"body": {
 						"message": {
-							"value": "@variables('OutputDetails')",
+							"value": "mensaje de testeo",
 							"type": "Expression"
 						}
 					},
