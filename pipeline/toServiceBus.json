@@ -15,13 +15,18 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"url": "https://abi-las-dev-brs-servicebus.servicebus.windows.net/abi-las-lte-v1.0-dev/messages",
+					"url": "https://acastanov2.servicebus.windows.net/myfirsttopic/messages",
 					"method": "POST",
 					"headers": {
 						"CustomHeader-Version": "\"1.0\"",
 						"Content-Type": "application/json"
 					},
-					"body": "",
+					"body": {
+						"orderId": 1,
+						"orderValue": 99.9,
+						"productId": 1,
+						"quantity": 1
+					},
 					"authentication": {
 						"type": "MSI",
 						"resource": "https://servicebus.azure.net/"
