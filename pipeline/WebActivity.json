@@ -24,17 +24,10 @@
 						"Content-Type": "application/json"
 					},
 					"body": {
-						"id": "961",
-						"description": "MONOTRIB+IB BA>30000M                        ",
-						"ivaCondition": {
-							"id": "7",
-							"description": "R. MONOTRIBUTO "
-						},
-						"iibbCondition": {
-							"id": "8",
-							"description": "Bs.As. +3000000"
-						},
-						"taxesApply": []
+						"orderId": 1,
+						"orderValue": 99.9,
+						"productId": 1,
+						"quantity": 1
 					},
 					"linkedServices": [
 						{
