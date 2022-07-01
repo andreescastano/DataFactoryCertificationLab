@@ -21,13 +21,12 @@
 						"CustomHeader-Version": "\"1.0\"",
 						"Content-Type": "application/json"
 					},
-					"body": "",
-					"datasets": [
-						{
-							"referenceName": "testFileJson",
-							"type": "DatasetReference"
-						}
-					],
+					"body": {
+						"orderId": 1,
+						"orderValue": 99.9,
+						"productId": 1,
+						"quantity": 1
+					},
 					"authentication": {
 						"type": "MSI",
 						"resource": "https://servicebus.azure.net/"
