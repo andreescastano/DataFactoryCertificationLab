@@ -21,19 +21,13 @@
 						"CustomHeader-Version": "\"1.0\"",
 						"Content-Type": "application/json"
 					},
-					"body": {
-						"id": "961",
-						"description": "MONOTRIB+IB BA>30000M                        ",
-						"ivaCondition": {
-							"id": "7",
-							"description": "R. MONOTRIBUTO "
-						},
-						"iibbCondition": {
-							"id": "8",
-							"description": "Bs.As. +3000000"
-						},
-						"taxesApply": []
-					},
+					"body": "{\n        \"myMessage\": \"Sample\",\n        \"datasets\": [{\n            \"name\": \"MyDataset1\",\n            \"properties\": {\n                ...\n            }\n        }],\n        \"linkedServices\": [{\n            \"name\": \"MyStorageLinkedService1\",\n            \"properties\": {\n                ...\n            }\n        }]\n    }",
+					"datasets": [
+						{
+							"referenceName": "testFileJson",
+							"type": "DatasetReference"
+						}
+					],
 					"authentication": {
 						"type": "MSI",
 						"resource": "https://servicebus.azure.net/"
@@ -41,6 +35,11 @@
 				}
 			}
 		],
+		"parameters": {
+			"json2send": {
+				"type": "String"
+			}
+		},
 		"annotations": []
 	}
 }
